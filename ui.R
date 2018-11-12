@@ -16,7 +16,7 @@ fluidPage(
       sliderInput("max",
                   "Numero maximo de palabras:",
                   min = 1,  max = 300,  value = 100),
-     img(src = "Neuro.png", height = 70, width = 150)
+     img(src = "neuro.png", height = 70, width = 150)
     ),
     
     # Show Word Cloud
