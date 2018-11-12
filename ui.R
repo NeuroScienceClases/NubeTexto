@@ -5,16 +5,16 @@ fluidPage(
   sidebarLayout(
     # Sidebar with a slider and selection inputs
     sidebarPanel(
-                  textInput("text","text"),
+                  textInput("text","Pegue la direccion del PDF"),
      #selectInput("selection", "Choose a book:",
                   #choices = books),
-      actionButton("update", "Change"),
+      actionButton("update", "Actualizar"),
       hr(),
       sliderInput("freq",
-                  "Minimum Frequency:",
+                  "Frecuencia Minima:",
                   min = 1,  max = 50, value = 15),
       sliderInput("max",
-                  "Maximum Number of Words:",
+                  "Numero maximo de palabras:",
                   min = 1,  max = 300,  value = 100)
     ),
     
