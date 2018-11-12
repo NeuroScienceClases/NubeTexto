@@ -1,6 +1,6 @@
 library(tm)
 library(wordcloud)
-library(wordcloud2)
+#library(wordcloud2)
 library(memoise)
 library(shiny)
 library(slam)
